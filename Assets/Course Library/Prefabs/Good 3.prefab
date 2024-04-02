@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 9056311880593625004}
   - component: {fileID: 3841094835033310602}
   - component: {fileID: 5243023305735065841}
+  - component: {fileID: 2036766440957736}
   - component: {fileID: 3466790972505314393}
   - component: {fileID: 6126880390154008137}
-  - component: {fileID: 2036766440957736}
   m_Layer: 0
   m_Name: Good 3
-  m_TagString: Untagged
+  m_TagString: Good
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,6 +86,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2036766440957736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8570708129152931467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8aa21f6766ef94f885d83d241a771e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionParticle: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
+  pointValue: 0
 --- !u!65 &3466790972505314393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -134,15 +148,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2036766440957736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8570708129152931467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e8aa21f6766ef94f885d83d241a771e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
